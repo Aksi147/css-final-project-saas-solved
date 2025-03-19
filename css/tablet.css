@@ -1,0 +1,245 @@
+@media (max-width: 1023px) {
+  .nav-bar-list,
+  .header-button {
+    display: none;
+  }
+
+  nav .fa-solid {
+    font-weight: 900;
+    font-size: 1.25rem;
+    color: #677788;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    height: 80%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-size: 100% 65%;
+    background-position: 0 0;
+  }
+
+  .hero-section .left-part {
+    align-items: center;
+    justify-content: start;
+    max-width: 100%;
+    width: 100%;
+    height: 25%;
+  }
+  .left-part .title-container {
+    width: 100%;
+    height: auto;
+    max-width: fit-content;
+  }
+  .left-part .hero-title {
+    width: 100%;
+    white-space: nowrap;
+  }
+
+  .hero-section .left-part .title-container {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .hero-section .left-part .title-container .hero-title-text {
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .hero-section .right-part {
+    flex: 1;
+    width: 100%;
+    height: 50%;
+    max-height: 50%;
+  }
+
+  .top-section,
+  .top-section-content {
+    height: 80vw;
+  }
+
+  /* LOGO WRAPPERS */
+
+  .asana.wrapper {
+    position: absolute;
+    top: 0;
+    left: 75%;
+  }
+
+  .calendar.wrapper {
+    position: absolute;
+    top: 85%;
+    left: 72%;
+  }
+
+  .weave.wrapper {
+    position: absolute;
+    top: 45%;
+    left: 55%;
+  }
+
+  .paypal.wrapper {
+    position: absolute;
+    top: 38%;
+    left: 15%;
+  }
+
+  .atlassian.wrapper {
+    position: absolute;
+    top: 0;
+    left: 35%;
+  }
+
+  .google-ads.wrapper {
+    position: absolute;
+    top: 85%;
+    left: 30%;
+  }
+
+  .google.wrapper {
+    position: absolute;
+    top: 0;
+    left: 12%;
+  }
+
+  body {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+  }
+
+  section.why-front-section {
+    padding-top: 0;
+    padding-bottom: 1%;
+  }
+
+  .why-front-title {
+    width: 82%;
+    max-width: 100%;
+  }
+
+  .why-front-title h2 {
+    font-size: 1.625rem;
+    font-weight: 700;
+  }
+
+  .bullets-list {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .bullet-container {
+    width: 100%;
+    white-space: nowrap;
+    gap: 10px;
+  }
+
+  .pricing-table {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .plan-price {
+    justify-content: center;
+  }
+
+  .plan-footer {
+    justify-content: center;
+  }
+
+  .plan {
+    max-width: 90vw;
+  }
+
+  .plan-features {
+    padding: 0 2%;
+  }
+
+  .row {
+    align-items: start;
+  }
+
+  section.pricing-section {
+    padding-bottom: 5%;
+    gap: 8vw;
+  }
+
+  /* HIRE US SECTION */
+
+  section.hire-us-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hire-us-left-part {
+    flex-direction: row;
+    justify-content: center;
+    max-width: 85vw;
+    gap: 8vw;
+  }
+  .hire-us-left-part > * {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .bottom {
+    flex: 0.66;
+  }
+
+  .phrase {
+    max-width: 84%;
+  }
+
+  .persons-images img {
+    width: 25%;
+  }
+
+  .hire-us-left-part {
+    padding-top: 3%;
+  }
+
+  form {
+    max-width: 85vw;
+    height: auto;
+  }
+
+  .privacy-wrapper span:last-of-type {
+    display: none;
+  }
+
+  .view-privacy-policy a {
+    border-bottom: none;
+  }
+
+  textarea {
+    aspect-ratio: 4 / 1;
+  }
+
+  /* FOOTER */
+
+  .footer-right {
+    flex-wrap: wrap;
+    aspect-ratio: 1 / 1;
+    width: 30%;
+    max-width: 573px;
+    justify-content: center;
+    align-content: start;
+    align-items: start;
+    gap: 20px;
+  }
+
+  .footer-container {
+    justify-content: space-between;
+  }
+
+  .footer-item {
+    padding: 0 5% 5% 5%;
+  }
+
+  .phone-number {
+    color: #2576ff;
+  }
+}

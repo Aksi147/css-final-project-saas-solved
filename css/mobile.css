@@ -1,0 +1,276 @@
+@media (max-width: 767px) {
+  h1 {
+    font-size: 16px;
+  }
+
+  .hero-section .right-part {
+    max-height: 100%;
+    aspect-ratio: 1 / 1;
+    flex-wrap: wrap;
+  }
+
+  .top-section,
+  .top-section-content {
+    height: 100%;
+  }
+
+  .hero-section .left-part {
+    height: 100%;
+  }
+
+  .left-part .hero-title {
+    height: 100%;
+    width: 100%;
+    white-space: wrap;
+    padding: 0 5%;
+  }
+
+  .hero-paragraph {
+    padding: 0 10%;
+  }
+
+  .hero-section {
+    height: 100%;
+    background-size: 100%;
+    padding: 40px 10px 0 10px;
+  }
+
+  .asana.wrapper,
+  .paypal.wrapper,
+  .atlassian.wrapper,
+  .weave.wrapper,
+  .calendar.wrapper {
+    transform: scale(0.9);
+  }
+
+  .hero-section .left-part .title-container .hero-title h1 {
+    font-size: 1.625rem;
+    white-space: wrap;
+  }
+
+  /* LOGO WRAPPERS */
+
+  .asana.wrapper {
+    position: absolute;
+    top: 0;
+    left: 75%;
+  }
+
+  .calendar.wrapper {
+    position: absolute;
+    top: 65%;
+    left: 72%;
+  }
+
+  .weave.wrapper {
+    position: absolute;
+    top: 35%;
+    left: 55%;
+  }
+
+  .paypal.wrapper {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+  }
+
+  .atlassian.wrapper {
+    position: absolute;
+    top: 0;
+    left: 35%;
+  }
+
+  .google-ads.wrapper {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+  }
+
+  .google.wrapper {
+    position: absolute;
+    top: 2%;
+    left: 4%;
+  }
+
+  .bullets-list {
+    flex-direction: column;
+    flex-grow: 1;
+    height: 100%;
+    max-height: 100%;
+    width: auto;
+    gap: 3vw;
+    padding-bottom: 30px;
+  }
+
+  .bullet-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+
+  .why-front-title {
+    width: 100%;
+  }
+
+  .why-front-title p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .top2::before,
+  .top3::before,
+  .top4::before,
+  .top1::after,
+  .top2::after,
+  .top3::after {
+    display: none;
+  }
+
+  .top1,
+  .top2,
+  .top3,
+  .top4 {
+    width: auto;
+  }
+
+  .bullet-container {
+    justify-content: start;
+  }
+
+  /* PRICING */ /* PRICING */ /* PRICING */ /* PRICING */ /* PRICING */
+
+  section.pricing-section {
+    padding: 0 15px 30px;
+  }
+
+  div.plan {
+    height: 150%;
+    transition: none;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .item-content,
+  .plan-feature-item {
+    width: 100%;
+  }
+  .item-content {
+    padding: 20px 0 20px;
+  }
+  .plan-features img {
+    width: 50px;
+    height: 50px;
+  }
+
+  h3.pricing-item-title {
+    font-size: 1.125rem;
+  }
+
+  div.hire-us-left-part {
+    flex-direction: column;
+  }
+
+  .hire-us-title {
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  .phrase {
+    max-width: 100%;
+  }
+
+  .bottom {
+    align-items: center;
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+
+  .bottom img {
+    width: 50%;
+  }
+
+  form {
+    max-width: 100%;
+    height: 100%;
+    padding: 30px;
+  }
+
+  section.hire-us-section {
+    padding: 30px 10px;
+  }
+
+  .form-group select {
+    width: 50%;
+    height: 100%;
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  .form-group select {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .name,
+  .country {
+    flex-direction: column;
+  }
+
+  div.form-group .input {
+    height: 12.22vw;
+  }
+  div.form-group > * {
+    height: 12.22vw;
+  }
+
+  textarea {
+    aspect-ratio: 3 / 2;
+  }
+
+  /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
+
+  .footer-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-container .footer-right {
+    gap: 30px;
+  }
+
+  .footer-contact {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-contact ul li {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-contact ul {
+    gap: 20px;
+  }
+
+  .footer-item {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .footer-item.documentation,
+  .footer-item.resources {
+    padding-top: 19px;
+  }
+
+  .footer-item ul {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
